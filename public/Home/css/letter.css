@@ -1,0 +1,130 @@
+/*站内信菜单栏*/
+.letter_title{
+    width: 1200px;
+    height: 31px;
+    border-bottom: 1px solid blue;
+    margin-top: 20px;
+}
+.letter_title ul li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left:20px;
+    /*border: 1px solid  blue;*/
+    line-height: 30px;
+    text-align: center;
+    background: #E3EEF8;
+    cursor: pointer;
+}
+/*选中样式*/
+.letter_title ul .white{
+    border-top:1px solid blue;
+    border-left:1px solid blue;
+    border-right:1px solid blue;
+    border-bottom:1px solid white;
+    background: white;
+}
+/*没有选中的样式*/
+.letter_title ul .blue{
+    border-top:1px solid white;
+    border-left:1px solid white;
+    border-right:1px solid white;
+    background: #E3EEF8;
+}
+/*主体*/
+.letter_content{
+    width: 1200px;
+    height: 400px;
+    background: #eee;
+    margin-top: 30px;
+}
+/*发站内信的内容*/
+.letter_transmit{
+    width: 1200px;
+
+}
+.letter_transmit div{
+    width: 800px;
+    /*height: 400px;*/
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    /*border: 1px solid white;*/
+}
+.input{
+    width: 400px;
+    height: 30px;
+    margin-left: 30px;
+}
+.textarea{
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+}
+.tijiao{
+    margin-left: 200px;
+    /*margin-bottom: 20px;*/
+}
+
+/*收件箱*/
+.letter_inbox{
+    width: 1200px;
+    font-size: 20px;
+}
+.letter_inbox_left{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    overflow: auto;
+    /*border: 1px solid black;*/
+}
+.letter_inbox_left ul li{
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid white;
+    background: #E3EEF8;
+    cursor: pointer;
+}
+
+.letter_inbox_right{
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+
+/*发件箱*/
+.letter_outbox{
+    width: 1200px;
+    font-size: 20px;
+}
+.letter_outbox_left{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    overflow: auto;
+    /*border: 1px solid black;*/
+}
+.letter_outbox_left ul li{
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid white;
+    background: #E3EEF8;
+    cursor: pointer;
+}
+.letter_outbox_right{
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}
